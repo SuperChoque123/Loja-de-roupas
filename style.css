@@ -1,21 +1,26 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #f0f0f0
     
 }
 
 .centralizar {
     max-width: 660px;
-    margin: 0 auto;
+    margin: auto;
 }
-
+.img {
+    max-width: 10px;
+    max-height: 10px;
+    margin: 0 auto;
+    padding: 100%;
+}
 .branca {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     margin: 10px;
     box-sizing: border-box;
 }
 .roupa {
-background-color: rgb(255, 255, 255);
+background-color: black;
 padding: 100px;
 margin: 10px;
 box-sizing: border-box;
@@ -32,6 +37,57 @@ box-sizing: border-box;
     display: flex;
 }
 
-h3{
+.h3{
     font-family: "Whereas recognition of the inherent", "serif";
+}
+
+.contato{
+    justify-content: space-around;
+
+}
+
+.neymar{
+    font-size: 50px;
+    color: #f0f0f0;
+    font-family: "Inspiration","cursive";
+    text-align: center;
+}
+
+#rodape{
+    text-align: center;
+    background-color: black;
+    height: 50px;  
+    padding-top: 20px;
+     margin-top: 200px;
+}
+
+#gremio {
+    size: 100px;
+    padding: 10px;
+
+}
+
+.contato{
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    margin-left: 500px;
+}
+
+.contata{
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 500px;
+    
+    
+}
+
+.contatos{
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    text-align: center;
+    
 }
